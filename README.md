@@ -1,4 +1,4 @@
-# adminapp
+#Admin application
 Please Follow this procedure to get result
 
  	Open command prompt downloaded directory
@@ -33,3 +33,5 @@ Please Follow this procedure to get result
     if admin user will have option to remove user and user if not user login doesn't  get delete and add users option
 
     if you create user or delete user table will update dynamically
+
+Note:Iam not added node modules plese install.Please extract public and server zipped folders and open your command promt where your netElixir_server.js located
