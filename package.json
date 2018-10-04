@@ -1,0 +1,32 @@
+{
+  "name": "Catalyst",
+  "version": "0.6.0",
+  "description": "category analysis",
+  "main": "netElixir_server.js",
+  "private": true,
+  "dependencies": {
+    "connect": "*",
+    "cookie-session": "*",
+    "crypto": "*",
+    "errorhandler": "^1.4.2",
+    "formidable": "*",
+    "http-json-response": "^1.0.1",
+    "mime": "^1.3.4",
+    "moment": "^2.18.1",
+    "morgan": "^1.5.2",
+    "mysql": "^2.0.0-alpha8",
+    "oauth": "^0.9.13",
+    "qs": "^4.0.0",
+    "request": "^2.60.0",
+    "sesh": "^0.1.0",
+    "shelljs": "*",
+    "socket.io": "*",
+    "request":"*",
+    "wait.for-es6": "*"
+  },
+  "scripts": {
+    "start": "node --harmony --expose-gc netElixir_server.js"
+  },
+  "author": "NetElixir pvt ltd team",
+  "license": "ISC"
+}

@@ -1,0 +1,17 @@
+--------Mysql-------------
+create database NetElixir;
+use NetElixir;
+create table `user_info` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) DEFAULT NULL,
+  `email` varchar(100) DEFAULT NULL,
+  `password` varchar(20) DEFAULT NULL,
+  `user_type` varchar(20) DEFAULT NULL,
+  `feed_back` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB;
+
+insert into user_info(email,name,password,user_type,feed_back) values('netelixir@usersav.com','sudarshan',123456,'user','He is good in program');
+insert into user_info(email,name,password,user_type,feed_back) values('netelixir@usersav1.com','shiva',123456,'user','He is average in program');
+insert into user_info(email,name,password,user_type,feed_back) values('netelixir@adminsav.com','Anan',123456,'admin','He is Excelent in programing');
+insert into user_info(email,name,password,user_type,feed_back) values('netelixir@adminsav1.com','shanker',123456,'admin','He is poor in programing');
