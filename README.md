@@ -34,4 +34,4 @@ Please Follow this procedure to get result
 
     if you create user or delete user table will update dynamically
 
-Note:Iam not added node modules plese install.Please extract public and server zipped folders and open your command promt where your netElixir_server.js located...
+Note:Iam not added node modules plese install.Please extract public and server zipped folders and open your command promt where your netElixir_server.js located
